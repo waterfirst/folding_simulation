@@ -19,3 +19,4 @@ jobs:
       - run: npm install --no-audit --no-fund
       - run: npm test
       - run: npm run build
+      - run: docker build --tag folding-simulation:ci .
