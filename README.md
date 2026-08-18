@@ -1,5 +1,7 @@
 # Foldable Display Mechanical Simulation
 
+[![CI](https://github.com/waterfirst/folding_simulation/actions/workflows/ci.yml/badge.svg)](https://github.com/waterfirst/folding_simulation/actions/workflows/ci.yml)
+
 React와 Three.js로 만든 폴더블 디스플레이 적층 구조의 접힘 하중·응력 비교 시뮬레이터입니다. Layer 두께, 탄성률, 허용 변형률, 온도, 최소 힌지 반경과 누적 사이클을 바꾸면서 3D 시험기 동작과 Layer별 기계 응답을 실시간으로 확인할 수 있습니다.
 
 > 이 도구는 적층 보 이론을 이용한 빠른 engineering estimate입니다. 재료 비선형, 계면 slip·박리, 접촉 및 대변형을 직접 푸는 FEA를 대체하지 않습니다. 절대값을 설계 승인에 사용하려면 실측 하중과 FEA 결과로 계수를 보정해야 합니다.
