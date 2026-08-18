@@ -1,0 +1,7 @@
+services:
+  folding-simulation:
+    build: .
+    container_name: folding-simulation
+    restart: unless-stopped
+    ports:
+      - "8080:80"
